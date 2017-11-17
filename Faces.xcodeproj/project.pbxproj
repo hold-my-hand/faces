@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06ADBC81FBECBF800029DA8 /* Faces StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F06ADBC71FBECBF800029DA8 /* Faces StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F06ADBCC1FBECBF800029DA8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = F06ADBCB1FBECBF800029DA8 /* Stickers.xcstickers */; };
+		F06ADBCD1FBECBF800029DA8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = F06ADBCB1FBECBF800029DA8 /* Stickers.xcstickers */; };
+		F06ADBDD1FBEDAC500029DA8 /* Seven StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F06ADBDC1FBEDAC500029DA8 /* Seven StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F06ADBE11FBEDAC500029DA8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = F06ADBE01FBEDAC500029DA8 /* Stickers.xcstickers */; };
+		F06ADBE21FBEDAC500029DA8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = F06ADBE01FBEDAC500029DA8 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06ADBC91FBECBF800029DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06ADBBD1FBECBF800029DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06ADBC61FBECBF800029DA8;
+			remoteInfo = "Faces StickerPackExtension";
+		};
+		F06ADBDE1FBEDAC500029DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06ADBBD1FBECBF800029DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06ADBDB1FBEDAC500029DA8;
+			remoteInfo = "Seven StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F06ADBD31FBECBF800029DA8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F06ADBC81FBECBF800029DA8 /* Faces StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06ADBE61FBEDAC500029DA8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F06ADBDD1FBEDAC500029DA8 /* Seven StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F06ADBC31FBECBF800029DA8 /* Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ADBC71FBECBF800029DA8 /* Faces StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Faces StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ADBCB1FBECBF800029DA8 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Faces StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		F06ADBD91FBEDAC500029DA8 /* Seven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ADBDC1FBEDAC500029DA8 /* Seven StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Seven StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ADBE01FBEDAC500029DA8 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Seven StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F06ADBBC1FBECBF800029DA8 = {
+			isa = PBXGroup;
+			children = (
+				F06ADBCB1FBECBF800029DA8 /* Stickers.xcstickers */,
+				F06ADBE01FBEDAC500029DA8 /* Stickers.xcstickers */,
+				F06ADBC41FBECBF800029DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06ADBC41FBECBF800029DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06ADBC31FBECBF800029DA8 /* Faces.app */,
+				F06ADBC71FBECBF800029DA8 /* Faces StickerPackExtension.appex */,
+				F06ADBD91FBEDAC500029DA8 /* Seven.app */,
+				F06ADBDC1FBEDAC500029DA8 /* Seven StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06ADBC21FBECBF800029DA8 /* Faces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ADBD41FBECBF800029DA8 /* Build configuration list for PBXNativeTarget "Faces" */;
+			buildPhases = (
+				F06ADBC11FBECBF800029DA8 /* Resources */,
+				F06ADBD31FBECBF800029DA8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06ADBCA1FBECBF800029DA8 /* PBXTargetDependency */,
+			);
+			name = Faces;
+			productName = Faces;
+			productReference = F06ADBC31FBECBF800029DA8 /* Faces.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		F06ADBC61FBECBF800029DA8 /* Faces StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ADBD01FBECBF800029DA8 /* Build configuration list for PBXNativeTarget "Faces StickerPackExtension" */;
+			buildPhases = (
+				F06ADBC51FBECBF800029DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Faces StickerPackExtension";
+			productName = "Faces StickerPackExtension";
+			productReference = F06ADBC71FBECBF800029DA8 /* Faces StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		F06ADBD81FBEDAC500029DA8 /* Seven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ADBE71FBEDAC500029DA8 /* Build configuration list for PBXNativeTarget "Seven" */;
+			buildPhases = (
+				F06ADBD71FBEDAC500029DA8 /* Resources */,
+				F06ADBE61FBEDAC500029DA8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06ADBDF1FBEDAC500029DA8 /* PBXTargetDependency */,
+			);
+			name = Seven;
+			productName = Seven;
+			productReference = F06ADBD91FBEDAC500029DA8 /* Seven.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		F06ADBDB1FBEDAC500029DA8 /* Seven StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ADBE31FBEDAC500029DA8 /* Build configuration list for PBXNativeTarget "Seven StickerPackExtension" */;
+			buildPhases = (
+				F06ADBDA1FBEDAC500029DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seven StickerPackExtension";
+			productName = "Seven StickerPackExtension";
+			productReference = F06ADBDC1FBEDAC500029DA8 /* Seven StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06ADBBD1FBECBF800029DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Transn;
+				TargetAttributes = {
+					F06ADBC21FBECBF800029DA8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F06ADBC61FBECBF800029DA8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F06ADBD81FBEDAC500029DA8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F06ADBDB1FBEDAC500029DA8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F06ADBC01FBECBF800029DA8 /* Build configuration list for PBXProject "Faces" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F06ADBBC1FBECBF800029DA8;
+			productRefGroup = F06ADBC41FBECBF800029DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06ADBC21FBECBF800029DA8 /* Faces */,
+				F06ADBC61FBECBF800029DA8 /* Faces StickerPackExtension */,
+				F06ADBD81FBEDAC500029DA8 /* Seven */,
+				F06ADBDB1FBEDAC500029DA8 /* Seven StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06ADBC11FBECBF800029DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ADBCD1FBECBF800029DA8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06ADBC51FBECBF800029DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ADBCC1FBECBF800029DA8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06ADBD71FBEDAC500029DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ADBE21FBEDAC500029DA8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06ADBDA1FBEDAC500029DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ADBE11FBEDAC500029DA8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06ADBCA1FBECBF800029DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06ADBC61FBECBF800029DA8 /* Faces StickerPackExtension */;
+			targetProxy = F06ADBC91FBECBF800029DA8 /* PBXContainerItemProxy */;
+		};
+		F06ADBDF1FBEDAC500029DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06ADBDB1FBEDAC500029DA8 /* Seven StickerPackExtension */;
+			targetProxy = F06ADBDE1FBEDAC500029DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F06ADBCE1FBECBF800029DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06ADBCF1FBECBF800029DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06ADBD11FBECBF800029DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = "Faces StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Faces.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06ADBD21FBECBF800029DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = "Faces StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Faces.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F06ADBD51FBECBF800029DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = Faces/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Faces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06ADBD61FBECBF800029DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = Faces/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Faces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F06ADBE41FBEDAC500029DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = "Seven StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Seven.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06ADBE51FBEDAC500029DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = "Seven StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Seven.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F06ADBE81FBEDAC500029DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = Seven/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Seven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06ADBE91FBEDAC500029DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGPB8ULV87;
+				INFOPLIST_FILE = Seven/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itakeeasy.core.Seven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06ADBC01FBECBF800029DA8 /* Build configuration list for PBXProject "Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ADBCE1FBECBF800029DA8 /* Debug */,
+				F06ADBCF1FBECBF800029DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ADBD01FBECBF800029DA8 /* Build configuration list for PBXNativeTarget "Faces StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ADBD11FBECBF800029DA8 /* Debug */,
+				F06ADBD21FBECBF800029DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ADBD41FBECBF800029DA8 /* Build configuration list for PBXNativeTarget "Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ADBD51FBECBF800029DA8 /* Debug */,
+				F06ADBD61FBECBF800029DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ADBE31FBEDAC500029DA8 /* Build configuration list for PBXNativeTarget "Seven StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ADBE41FBEDAC500029DA8 /* Debug */,
+				F06ADBE51FBEDAC500029DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ADBE71FBEDAC500029DA8 /* Build configuration list for PBXNativeTarget "Seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ADBE81FBEDAC500029DA8 /* Debug */,
+				F06ADBE91FBEDAC500029DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06ADBBD1FBECBF800029DA8 /* Project object */;
+}
